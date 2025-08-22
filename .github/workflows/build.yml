@@ -1,6 +1,7 @@
 name: Stable Kernel CI
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - 'linux-wsl-stable-6.16.[0-9]+'
